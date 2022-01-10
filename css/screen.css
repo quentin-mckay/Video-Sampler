@@ -32,6 +32,10 @@
     position: absolute;
     display: none;
   }
+
+  #monitor > video {
+    border: 1px solid #000;
+  }
   
   /* --------------------------------- */
   kbd {
