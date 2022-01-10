@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="/css/screen.css" rel="stylesheet" />
+    <title>Video Sampler</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <main>
+      <h1>Video Sampler</h1>
+      <p>
+        Press and hold <kbd class="record-key">Q</kbd> to sample webcam. Press
+        <kbd class="playback-key">A</kbd> to trigger playback.
+      </p>
+      <p>
+        Other grid cells controlled with <kbd class="record-key">W</kbd>
+        <kbd class="record-key">E</kbd> <kbd class="record-key">R</kbd> and
+        <kbd class="playback-key">S</kbd> <kbd class="playback-key">D</kbd>
+        <kbd class="playback-key">F</kbd>
+      </p>
+
+      <div id="monitor">
+        <div id="monitor-is-recording"></div>
+      </div>
+      <div id="video-grid">
+        <div id="vid-1" class="video-holder">
+          <div id="vid-1-is-recording"></div>
+        </div>
+        <div id="vid-2" class="video-holder">
+          <div id="vid-2-is-recording"></div>
+        </div>
+        <div id="vid-3" class="video-holder">
+          <div id="vid-3-is-recording"></div>
+        </div>
+        <div id="vid-4" class="video-holder">
+          <div id="vid-4-is-recording"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

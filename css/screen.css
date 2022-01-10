@@ -1,0 +1,103 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: monospace;
+    background: #eee;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #monitor {
+    /* border: 1px solid #000; */
+    width: 320px;
+    height: 240px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px auto;
+  }
+  
+  #monitor-is-recording {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    position: absolute;
+    display: none;
+  }
+  
+  /* --------------------------------- */
+  kbd {
+    border-radius: 2px;
+    padding: 2px 5px;
+    border: 1px solid #000;
+  }
+  
+  .record-key {
+    background: lightcoral;
+  }
+  
+  .playback-key {
+    background: mediumaquamarine;
+  }
+  
+  /* --------------------------------- */
+  #video-grid {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 640px;
+    height: 480px;
+    /* border: 10px solid steelblue; */
+  }
+  
+  .video-holder {
+    background: black;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .recording {
+    border: 2px solid red;
+  }
+  
+  #vid-1-is-recording {
+    border: 2px solid red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  #vid-2-is-recording {
+    border: 2px solid red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  #vid-3-is-recording {
+    border: 2px solid red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  #vid-4-is-recording {
+    border: 2px solid red;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
