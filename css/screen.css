@@ -7,13 +7,13 @@
   body {
     font-family: monospace;
     background: #eee;
-    line-height: 30px;
+    line-height: 26px;
     text-align: center;
   }
   
   h1 {
     text-align: center;
-    padding: 20px;
+    padding: 30px 40px 20px;
   }
   
   #monitor {
@@ -37,6 +37,10 @@
     border: 1px solid #000;
   }
   
+  .warning-headphones {
+    color: red;
+  }
+
   /* --------------------------------- */
   kbd {
     border-radius: 2px;
