@@ -2,7 +2,7 @@
 
 ![Video Sampler screenshot](img/screenshot.jpg)
 
-## [Live demo](https://video-sampler.netlify.app)
+[Live demo](https://video-sampler.netlify.app)
 
 ## About
 
