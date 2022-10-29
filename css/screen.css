@@ -12,8 +12,9 @@
   }
   
   h1 {
+    font-size: 2rem;
     text-align: center;
-    padding: 30px 40px 20px;
+    margin: 20px;
   }
   
   #monitor {
@@ -39,6 +40,8 @@
   
   .warning-headphones {
     color: red;
+    font-size: 20px;
+    margin: 10px;
   }
 
   /* --------------------------------- */
